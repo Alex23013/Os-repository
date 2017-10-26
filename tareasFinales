@@ -1,0 +1,20 @@
+Pipes // es un archivo ls -ls
+    ->File, con nombres
+    ->Unnamed
+signal
+message queue
+share memory
+TAREA: semaphores.txt
+
+-Fork
+-threads
+-system()
+
+Haka???? baile
+
+TAREA: fin de semestre como encontrar todos los pipe del sistema
+Ubuntu sobre Windows es 100% posix o es una maquina virtual sobre una particion
+
+
+
+

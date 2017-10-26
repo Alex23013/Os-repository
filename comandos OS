@@ -1,0 +1,59 @@
+step s : si hay funcion entra a su codigo
+next n : si hay funcion la realiza y sale sin entrar
+
+cat * | wc -l // para saber cuantas lineas tiene ALL
+cat //abre los archivos
+cat * // abre todos los archivos
+wc //cuenta las palabras
+wc -l //cuenta las lineas
+
+
+///QEMU
+exit --> Ctrl+a   X
+
+///apaga la compu
+sudo shutdown -h now
+sudo apt-get --purge remove nombrePrograma // para desinstalar un programa
+
+ps// procesos
+ps -AF //TODOS los procesos + info
+ps -AF |grep qemu  // me filtra las lineas que tienen la palabra 'qemu'
+
+ps -AF | egrep "nombre | PPID" //para que filtre con los headers de la tabla
+
+history |grep make // todos los comandos del historial que llevan la palabra 'make'
+
+///////// Para meter a consola Linux
+Control+Fn+Alt F6 // in console
+Contol+ Alt + f7 //out console to interface
+
+////////xv6 ////
+grep //para buscar patrones en filas
+forktest // para test que esta bien el comando fork (que crea)
+wc //word counter
+wc README //result filas|palabras|caracteres
+
+
+/////// xv6- gdb /////
+target remote : 26000 //para abrir el puerto correcto
+info reg //informacion del registro
+disable //desactivo los breakpoint
+
+/////info reg ///
+%esp : //register to point to the TOP pf the Stack
+%ebp : //direccion base del frame
+
+////////13/09/17
+
+static int (*syscalls[])(void)
+
+variable: syscalls
+que es un puntero a un vector de funciones y que no reciben
+nada en los parametros y que retornan un entero y todo esto es statico
+
+///////////////
+
+PID-process ID
+PPID- Parent process ID
+
+Cygwin -- bash linux
